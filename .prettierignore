@@ -1,0 +1,9 @@
+.husky
+.idea
+node_modules
+
+*.css
+*.html
+*.json
+*.md
+*.lock
