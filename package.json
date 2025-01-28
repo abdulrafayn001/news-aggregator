@@ -14,11 +14,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tanstack/react-query": "5.65.1",
+    "@tanstack/react-query-devtools": "5.65.1",
     "react": "19.0.0",
     "react-dom": "19.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@tanstack/eslint-plugin-query": "5.65.0",
     "@trivago/prettier-plugin-sort-imports": "5.2.1",
     "@types/react": "19.0.8",
     "@types/react-dom": "19.0.3",
