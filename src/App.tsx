@@ -8,7 +8,7 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <h1>News Aggregator</h1>
+      <h1 className="text-3xl font-bold underline">News Aggregator</h1>
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   )
