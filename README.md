@@ -48,3 +48,53 @@ export default tseslint.config({
   },
 })
 ```
+
+---
+
+## Docker Setup
+
+### Run the Project Using Docker
+
+To run the application using Docker, follow these steps:
+
+1. **Build and start the containers**
+
+   Run the following command to build the Docker image and start the containers:
+
+   ```bash
+   docker compose up --build -d
+   # This will:
+   # - Build the image based on the Dockerfile
+   # - Start the containers in detached mode (-d)
+   # - Expose the app on port 5173
+   ```
+
+2. **Access the Application**
+
+   Once the containers are up and running, you can access the application at:
+
+   ```plaintext
+   http://localhost:5173
+   ```
+
+3. **View Logs (Optional)**
+
+   To view logs from the running containers, use:
+
+   ```bash
+   docker compose logs -f
+   # This will stream the logs from the containers in real-time.
+   # Press Ctrl + C to stop the log output.
+   ```
+
+4. **Stop and Remove Containers**
+
+   To stop and remove the containers, use:
+
+   ```bash
+   docker compose down --volumes
+   # This will stop the containers and remove the volumes.
+   ```
+
+That's it! Now you should have everything set up to run the project in Docker.
+
